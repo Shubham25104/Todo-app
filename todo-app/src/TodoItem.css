@@ -1,0 +1,32 @@
+.todo-item {
+  list-style-type: none;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.todo-item span {
+  cursor: pointer;
+}
+
+.todo-item button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #d9534f;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.todo-item button:hover {
+  background-color: #c9302c;
+}
